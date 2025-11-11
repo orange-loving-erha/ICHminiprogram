@@ -1,2 +1,6 @@
 <!-- index.wxml -->
-hello world
+pgaes/index/index.html
+<view>
+    hello world
+</view>
+  

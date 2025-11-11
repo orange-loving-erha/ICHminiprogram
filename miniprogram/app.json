@@ -1,6 +1,10 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/classification/index",
+    "pages/live-stream/index",
+    "pages/shopping-cart/index",
+    "pages/me/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -8,6 +12,32 @@
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "云开发 QuickStart",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#aaaaaa",
+    "selectedColor": "#a02c2c",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/classification/index",
+      "text": "分类"
+    },
+    {
+      "pagePath": "pages/live-stream/index",
+      "text": "直播"
+    },
+    {
+      "pagePath": "pages/shopping-cart/index",
+      "text": "购物车"
+    },
+    {
+      "pagePath": "pages/me/index",
+      "text": "我的"
+    }
+    ]
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2",
